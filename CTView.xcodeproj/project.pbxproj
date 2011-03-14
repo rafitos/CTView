@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CTViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CTViewAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28D7ACF80DDB3853001CB0EB /* CTViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CTViewViewController.m */; };
+		5225CCB512F568D800DAA285 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5225CCB412F568D800DAA285 /* CoreText.framework */; };
+		5225CCCE12F5694B00DAA285 /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5225CCB812F5694B00DAA285 /* CTView.m */; };
+		5225CCCF12F5694B00DAA285 /* CTDecoratorAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5225CCBE12F5694B00DAA285 /* CTDecoratorAlignment.m */; };
+		5225CCD012F5694B00DAA285 /* CTDecoratorColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5225CCC012F5694B00DAA285 /* CTDecoratorColor.m */; };
+		5225CCD112F5694B00DAA285 /* CTDecoratorFontFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5225CCC212F5694B00DAA285 /* CTDecoratorFontFile.m */; };
+		5225CCD212F5694B00DAA285 /* CTDecoratorFontName.m in Sources */ = {isa = PBXBuildFile; fileRef = 5225CCC412F5694B00DAA285 /* CTDecoratorFontName.m */; };
+		5225CCD312F5694B00DAA285 /* CTDecoratorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5225CCC612F5694B00DAA285 /* CTDecoratorImage.m */; };
+		5225CCD412F5694B00DAA285 /* CTDecoratorTouched.m in Sources */ = {isa = PBXBuildFile; fileRef = 5225CCC812F5694B00DAA285 /* CTDecoratorTouched.m */; };
+		5225CCD512F5694B00DAA285 /* CTVFontTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5225CCCA12F5694B00DAA285 /* CTVFontTag.m */; };
+		526E7073132C0ACC00D97667 /* CTVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 526E7072132C0ACC00D97667 /* CTVParser.m */; };
+		526E7112132DB99000D97667 /* CTVStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = 526E7111132DB99000D97667 /* CTVStyler.m */; };
+		52D25325132DF30000AD5135 /* CTViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D2530A132DF30000AD5135 /* CTViewViewController.xib */; };
+		52D25326132DF30000AD5135 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = 52D2530C132DF30000AD5135 /* AUTHORS */; };
+		52D25327132DF30000AD5135 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 52D2530D132DF30000AD5135 /* ChangeLog */; };
+		52D25328132DF30000AD5135 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 52D2530E132DF30000AD5135 /* COPYING */; };
+		52D25329132DF30000AD5135 /* LiberationMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D2530F132DF30000AD5135 /* LiberationMono-Bold.ttf */; };
+		52D2532A132DF30000AD5135 /* LiberationMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25310132DF30000AD5135 /* LiberationMono-BoldItalic.ttf */; };
+		52D2532B132DF30000AD5135 /* LiberationMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25311132DF30000AD5135 /* LiberationMono-Italic.ttf */; };
+		52D2532C132DF30000AD5135 /* LiberationMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25312132DF30000AD5135 /* LiberationMono-Regular.ttf */; };
+		52D2532D132DF30000AD5135 /* LiberationSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25313132DF30000AD5135 /* LiberationSans-Bold.ttf */; };
+		52D2532E132DF30000AD5135 /* LiberationSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25314132DF30000AD5135 /* LiberationSans-BoldItalic.ttf */; };
+		52D2532F132DF30000AD5135 /* LiberationSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25315132DF30000AD5135 /* LiberationSans-Italic.ttf */; };
+		52D25330132DF30000AD5135 /* LiberationSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25316132DF30000AD5135 /* LiberationSans-Regular.ttf */; };
+		52D25331132DF30000AD5135 /* LiberationSansNarrow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25317132DF30000AD5135 /* LiberationSansNarrow-Bold.ttf */; };
+		52D25332132DF30000AD5135 /* LiberationSansNarrow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25318132DF30000AD5135 /* LiberationSansNarrow-BoldItalic.ttf */; };
+		52D25333132DF30000AD5135 /* LiberationSansNarrow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D25319132DF30000AD5135 /* LiberationSansNarrow-Italic.ttf */; };
+		52D25334132DF30000AD5135 /* LiberationSansNarrow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D2531A132DF30000AD5135 /* LiberationSansNarrow-Regular.ttf */; };
+		52D25335132DF30000AD5135 /* LiberationSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D2531B132DF30000AD5135 /* LiberationSerif-Bold.ttf */; };
+		52D25336132DF30000AD5135 /* LiberationSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D2531C132DF30000AD5135 /* LiberationSerif-BoldItalic.ttf */; };
+		52D25337132DF30000AD5135 /* LiberationSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D2531D132DF30000AD5135 /* LiberationSerif-Italic.ttf */; };
+		52D25338132DF30000AD5135 /* LiberationSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D2531E132DF30000AD5135 /* LiberationSerif-Regular.ttf */; };
+		52D25339132DF30000AD5135 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52D2531F132DF30000AD5135 /* License.txt */; };
+		52D2533A132DF30000AD5135 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 52D25320132DF30000AD5135 /* README */; };
+		52D2533B132DF30000AD5135 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 52D25321132DF30000AD5135 /* TODO */; };
+		52D2533C132DF30000AD5135 /* lorem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52D25322132DF30000AD5135 /* lorem.txt */; };
+		52D2533D132DF30000AD5135 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D25323132DF30000AD5135 /* MainWindow.xib */; };
+		52D25367132DF52800AD5135 /* julie.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D25366132DF52800AD5135 /* julie.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CTViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTViewAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CTViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTViewAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CTView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D7ACF60DDB3853001CB0EB /* CTViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTViewViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* CTViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTViewViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CTView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTView_Prefix.pch; sourceTree = "<group>"; };
+		5225CCB412F568D800DAA285 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		5225CCB712F5694B00DAA285 /* CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
+		5225CCB812F5694B00DAA285 /* CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
+		5225CCB912F5694B00DAA285 /* CTVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVDelegate.h; sourceTree = "<group>"; };
+		5225CCBA12F5694B00DAA285 /* CTDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTDecorator.h; path = ../CTDecorator.h; sourceTree = "<group>"; };
+		5225CCBD12F5694B00DAA285 /* CTDecoratorAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDecoratorAlignment.h; sourceTree = "<group>"; };
+		5225CCBE12F5694B00DAA285 /* CTDecoratorAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDecoratorAlignment.m; sourceTree = "<group>"; };
+		5225CCBF12F5694B00DAA285 /* CTDecoratorColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDecoratorColor.h; sourceTree = "<group>"; };
+		5225CCC012F5694B00DAA285 /* CTDecoratorColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDecoratorColor.m; sourceTree = "<group>"; };
+		5225CCC112F5694B00DAA285 /* CTDecoratorFontFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDecoratorFontFile.h; sourceTree = "<group>"; };
+		5225CCC212F5694B00DAA285 /* CTDecoratorFontFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDecoratorFontFile.m; sourceTree = "<group>"; };
+		5225CCC312F5694B00DAA285 /* CTDecoratorFontName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDecoratorFontName.h; sourceTree = "<group>"; };
+		5225CCC412F5694B00DAA285 /* CTDecoratorFontName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDecoratorFontName.m; sourceTree = "<group>"; };
+		5225CCC512F5694B00DAA285 /* CTDecoratorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDecoratorImage.h; sourceTree = "<group>"; };
+		5225CCC612F5694B00DAA285 /* CTDecoratorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDecoratorImage.m; sourceTree = "<group>"; };
+		5225CCC712F5694B00DAA285 /* CTDecoratorTouched.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDecoratorTouched.h; sourceTree = "<group>"; };
+		5225CCC812F5694B00DAA285 /* CTDecoratorTouched.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDecoratorTouched.m; sourceTree = "<group>"; };
+		5225CCC912F5694B00DAA285 /* CTVFontTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVFontTag.h; sourceTree = "<group>"; };
+		5225CCCA12F5694B00DAA285 /* CTVFontTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTVFontTag.m; sourceTree = "<group>"; };
+		526E7071132C0ACC00D97667 /* CTVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVParser.h; sourceTree = "<group>"; };
+		526E7072132C0ACC00D97667 /* CTVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTVParser.m; sourceTree = "<group>"; };
+		526E7110132DB99000D97667 /* CTVStyler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVStyler.h; sourceTree = "<group>"; };
+		526E7111132DB99000D97667 /* CTVStyler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTVStyler.m; sourceTree = "<group>"; };
+		52D2530A132DF30000AD5135 /* CTViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CTViewViewController.xib; sourceTree = "<group>"; };
+		52D2530C132DF30000AD5135 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		52D2530D132DF30000AD5135 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		52D2530E132DF30000AD5135 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		52D2530F132DF30000AD5135 /* LiberationMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationMono-Bold.ttf"; sourceTree = "<group>"; };
+		52D25310132DF30000AD5135 /* LiberationMono-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationMono-BoldItalic.ttf"; sourceTree = "<group>"; };
+		52D25311132DF30000AD5135 /* LiberationMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationMono-Italic.ttf"; sourceTree = "<group>"; };
+		52D25312132DF30000AD5135 /* LiberationMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationMono-Regular.ttf"; sourceTree = "<group>"; };
+		52D25313132DF30000AD5135 /* LiberationSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSans-Bold.ttf"; sourceTree = "<group>"; };
+		52D25314132DF30000AD5135 /* LiberationSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		52D25315132DF30000AD5135 /* LiberationSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSans-Italic.ttf"; sourceTree = "<group>"; };
+		52D25316132DF30000AD5135 /* LiberationSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSans-Regular.ttf"; sourceTree = "<group>"; };
+		52D25317132DF30000AD5135 /* LiberationSansNarrow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSansNarrow-Bold.ttf"; sourceTree = "<group>"; };
+		52D25318132DF30000AD5135 /* LiberationSansNarrow-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSansNarrow-BoldItalic.ttf"; sourceTree = "<group>"; };
+		52D25319132DF30000AD5135 /* LiberationSansNarrow-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSansNarrow-Italic.ttf"; sourceTree = "<group>"; };
+		52D2531A132DF30000AD5135 /* LiberationSansNarrow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSansNarrow-Regular.ttf"; sourceTree = "<group>"; };
+		52D2531B132DF30000AD5135 /* LiberationSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSerif-Bold.ttf"; sourceTree = "<group>"; };
+		52D2531C132DF30000AD5135 /* LiberationSerif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
+		52D2531D132DF30000AD5135 /* LiberationSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSerif-Italic.ttf"; sourceTree = "<group>"; };
+		52D2531E132DF30000AD5135 /* LiberationSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSerif-Regular.ttf"; sourceTree = "<group>"; };
+		52D2531F132DF30000AD5135 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		52D25320132DF30000AD5135 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		52D25321132DF30000AD5135 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		52D25322132DF30000AD5135 /* lorem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lorem.txt; sourceTree = "<group>"; };
+		52D25323132DF30000AD5135 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		52D25346132DF37F00AD5135 /* CTView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CTView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		52D25366132DF52800AD5135 /* julie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = julie.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				5225CCB512F568D800DAA285 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5225CCB612F5694B00DAA285 /* CTView */,
+				1D3623240D0F684500981E51 /* CTViewAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CTViewAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* CTViewViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* CTViewViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CTView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				52D25308132DF30000AD5135 /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CTView_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				5225CCB412F568D800DAA285 /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5225CCB612F5694B00DAA285 /* CTView */ = {
+			isa = PBXGroup;
+			children = (
+				5225CCB712F5694B00DAA285 /* CTView.h */,
+				5225CCB812F5694B00DAA285 /* CTView.m */,
+				5225CCB912F5694B00DAA285 /* CTVDelegate.h */,
+				5225CCC912F5694B00DAA285 /* CTVFontTag.h */,
+				5225CCCA12F5694B00DAA285 /* CTVFontTag.m */,
+				526E7071132C0ACC00D97667 /* CTVParser.h */,
+				526E7072132C0ACC00D97667 /* CTVParser.m */,
+				526E7110132DB99000D97667 /* CTVStyler.h */,
+				526E7111132DB99000D97667 /* CTVStyler.m */,
+				5225CCBC12F5694B00DAA285 /* Decorators */,
+			);
+			name = CTView;
+			path = CoreTextView;
+			sourceTree = "<group>";
+		};
+		5225CCBC12F5694B00DAA285 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				5225CCBA12F5694B00DAA285 /* CTDecorator.h */,
+				5225CCBD12F5694B00DAA285 /* CTDecoratorAlignment.h */,
+				5225CCBE12F5694B00DAA285 /* CTDecoratorAlignment.m */,
+				5225CCBF12F5694B00DAA285 /* CTDecoratorColor.h */,
+				5225CCC012F5694B00DAA285 /* CTDecoratorColor.m */,
+				5225CCC112F5694B00DAA285 /* CTDecoratorFontFile.h */,
+				5225CCC212F5694B00DAA285 /* CTDecoratorFontFile.m */,
+				5225CCC312F5694B00DAA285 /* CTDecoratorFontName.h */,
+				5225CCC412F5694B00DAA285 /* CTDecoratorFontName.m */,
+				5225CCC512F5694B00DAA285 /* CTDecoratorImage.h */,
+				5225CCC612F5694B00DAA285 /* CTDecoratorImage.m */,
+				5225CCC712F5694B00DAA285 /* CTDecoratorTouched.h */,
+				5225CCC812F5694B00DAA285 /* CTDecoratorTouched.m */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		52D25308132DF30000AD5135 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52D25365132DF52800AD5135 /* Images */,
+				52D2530B132DF30000AD5135 /* Fonts */,
+				52D2530A132DF30000AD5135 /* CTViewViewController.xib */,
+				52D25323132DF30000AD5135 /* MainWindow.xib */,
+				52D25322132DF30000AD5135 /* lorem.txt */,
+				52D25346132DF37F00AD5135 /* CTView-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52D2530B132DF30000AD5135 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52D2530C132DF30000AD5135 /* AUTHORS */,
+				52D2530D132DF30000AD5135 /* ChangeLog */,
+				52D2530E132DF30000AD5135 /* COPYING */,
+				52D2530F132DF30000AD5135 /* LiberationMono-Bold.ttf */,
+				52D25310132DF30000AD5135 /* LiberationMono-BoldItalic.ttf */,
+				52D25311132DF30000AD5135 /* LiberationMono-Italic.ttf */,
+				52D25312132DF30000AD5135 /* LiberationMono-Regular.ttf */,
+				52D25313132DF30000AD5135 /* LiberationSans-Bold.ttf */,
+				52D25314132DF30000AD5135 /* LiberationSans-BoldItalic.ttf */,
+				52D25315132DF30000AD5135 /* LiberationSans-Italic.ttf */,
+				52D25316132DF30000AD5135 /* LiberationSans-Regular.ttf */,
+				52D25317132DF30000AD5135 /* LiberationSansNarrow-Bold.ttf */,
+				52D25318132DF30000AD5135 /* LiberationSansNarrow-BoldItalic.ttf */,
+				52D25319132DF30000AD5135 /* LiberationSansNarrow-Italic.ttf */,
+				52D2531A132DF30000AD5135 /* LiberationSansNarrow-Regular.ttf */,
+				52D2531B132DF30000AD5135 /* LiberationSerif-Bold.ttf */,
+				52D2531C132DF30000AD5135 /* LiberationSerif-BoldItalic.ttf */,
+				52D2531D132DF30000AD5135 /* LiberationSerif-Italic.ttf */,
+				52D2531E132DF30000AD5135 /* LiberationSerif-Regular.ttf */,
+				52D2531F132DF30000AD5135 /* License.txt */,
+				52D25320132DF30000AD5135 /* README */,
+				52D25321132DF30000AD5135 /* TODO */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		52D25365132DF52800AD5135 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				52D25366132DF52800AD5135 /* julie.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CTView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CTView" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTView;
+			productName = CoreTextView;
+			productReference = 1D6058910D05DD3D006BFB54 /* CTView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CTView" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CTView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D25325132DF30000AD5135 /* CTViewViewController.xib in Resources */,
+				52D25326132DF30000AD5135 /* AUTHORS in Resources */,
+				52D25327132DF30000AD5135 /* ChangeLog in Resources */,
+				52D25328132DF30000AD5135 /* COPYING in Resources */,
+				52D25329132DF30000AD5135 /* LiberationMono-Bold.ttf in Resources */,
+				52D2532A132DF30000AD5135 /* LiberationMono-BoldItalic.ttf in Resources */,
+				52D2532B132DF30000AD5135 /* LiberationMono-Italic.ttf in Resources */,
+				52D2532C132DF30000AD5135 /* LiberationMono-Regular.ttf in Resources */,
+				52D2532D132DF30000AD5135 /* LiberationSans-Bold.ttf in Resources */,
+				52D2532E132DF30000AD5135 /* LiberationSans-BoldItalic.ttf in Resources */,
+				52D2532F132DF30000AD5135 /* LiberationSans-Italic.ttf in Resources */,
+				52D25330132DF30000AD5135 /* LiberationSans-Regular.ttf in Resources */,
+				52D25331132DF30000AD5135 /* LiberationSansNarrow-Bold.ttf in Resources */,
+				52D25332132DF30000AD5135 /* LiberationSansNarrow-BoldItalic.ttf in Resources */,
+				52D25333132DF30000AD5135 /* LiberationSansNarrow-Italic.ttf in Resources */,
+				52D25334132DF30000AD5135 /* LiberationSansNarrow-Regular.ttf in Resources */,
+				52D25335132DF30000AD5135 /* LiberationSerif-Bold.ttf in Resources */,
+				52D25336132DF30000AD5135 /* LiberationSerif-BoldItalic.ttf in Resources */,
+				52D25337132DF30000AD5135 /* LiberationSerif-Italic.ttf in Resources */,
+				52D25338132DF30000AD5135 /* LiberationSerif-Regular.ttf in Resources */,
+				52D25339132DF30000AD5135 /* License.txt in Resources */,
+				52D2533A132DF30000AD5135 /* README in Resources */,
+				52D2533B132DF30000AD5135 /* TODO in Resources */,
+				52D2533C132DF30000AD5135 /* lorem.txt in Resources */,
+				52D2533D132DF30000AD5135 /* MainWindow.xib in Resources */,
+				52D25367132DF52800AD5135 /* julie.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CTViewAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* CTViewViewController.m in Sources */,
+				5225CCCE12F5694B00DAA285 /* CTView.m in Sources */,
+				5225CCCF12F5694B00DAA285 /* CTDecoratorAlignment.m in Sources */,
+				5225CCD012F5694B00DAA285 /* CTDecoratorColor.m in Sources */,
+				5225CCD112F5694B00DAA285 /* CTDecoratorFontFile.m in Sources */,
+				5225CCD212F5694B00DAA285 /* CTDecoratorFontName.m in Sources */,
+				5225CCD312F5694B00DAA285 /* CTDecoratorImage.m in Sources */,
+				5225CCD412F5694B00DAA285 /* CTDecoratorTouched.m in Sources */,
+				5225CCD512F5694B00DAA285 /* CTVFontTag.m in Sources */,
+				526E7073132C0ACC00D97667 /* CTVParser.m in Sources */,
+				526E7112132DB99000D97667 /* CTVStyler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CTView_Prefix.pch;
+				INFOPLIST_FILE = "CTView-Info.plist";
+				PRODUCT_NAME = CTView;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CTView_Prefix.pch;
+				INFOPLIST_FILE = "CTView-Info.plist";
+				PRODUCT_NAME = CTView;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CTView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CTView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
